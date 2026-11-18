@@ -1,0 +1,26 @@
+{
+  "files": [
+    {
+      "path": "actions.json",
+      "bytes": 1094,
+      "sha256": "3604be8a4653c018fa6dc796c809d35ee1a13d48bb7397c413b1e11292d66924"
+    },
+    {
+      "path": "appointments.parquet",
+      "bytes": 1369,
+      "sha256": "b5bf4303de2acfa9e36222b2a8637fe12c415d64eb49eca95158772a46d1cf76",
+      "rows": 2
+    },
+    {
+      "path": "events.parquet",
+      "bytes": 3383,
+      "sha256": "6d27b69b7bd603095bb2b8b25d76643b157707126c08c2fedda8a8ffcb3d6a53",
+      "rows": 4
+    },
+    {
+      "path": "seed.json",
+      "bytes": 1076,
+      "sha256": "2729e2bb39b533f3257cddfb73babd7e098b7644799eda99fc122e06c5fe3233"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "events": [
+    {
+      "id": "E1",
+      "vehicle": "V1",
+      "boot": "B1",
+      "at": "2026-10-01T23:40:00+08:00",
+      "kind": "run",
+      "appointment": null,
+      "revision": 1
+    },
+    {
+      "id": "E2",
+      "vehicle": "V1",
+      "boot": "B1",
+      "at": "2026-10-02T00:20:00+08:00",
+      "kind": "run",
+      "appointment": null,
+      "revision": 1
+    },
+    {
+      "id": "E3",
+      "vehicle": "V1",
+      "boot": "B1",
+      "at": "2026-10-02T00:25:00+08:00",
+      "kind": "complete",
+      "appointment": "A1/2",
+      "revision": 1
+    },
+    {
+      "id": "E4",
+      "vehicle": "V2",
+      "boot": "C1",
+      "at": "2026-10-02T00:00:00+08:00",
+      "kind": "run",
+      "appointment": null,
+      "revision": 1
+    }
+  ],
+  "appointments": [
+    {
+      "id": "A1",
+      "revision": 1,
+      "vehicle": "V2",
+      "from_at": "2026-10-01T20:00:00+08:00"
+    },
+    {
+      "id": "A1",
+      "revision": 2,
+      "vehicle": "V1",
+      "from_at": "2026-10-01T23:00:00+08:00"
+    }
+  ]
+}

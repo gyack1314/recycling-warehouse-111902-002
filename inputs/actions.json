@@ -1,0 +1,58 @@
+[
+  {
+    "step": 1,
+    "table": "events",
+    "op": "append",
+    "row": {
+      "id": "E-mid",
+      "vehicle": "V1",
+      "boot": "B1",
+      "at": "2026-10-02T00:00:00+08:00",
+      "kind": "stop",
+      "appointment": null,
+      "revision": 1
+    }
+  },
+  {
+    "step": 2,
+    "table": "events",
+    "op": "append",
+    "row": {
+      "id": "E-end",
+      "vehicle": "V1",
+      "boot": "B1",
+      "at": "2026-10-02T00:10:00+08:00",
+      "kind": "end",
+      "appointment": null,
+      "revision": 1
+    }
+  },
+  {
+    "step": 3,
+    "table": "events",
+    "op": "append",
+    "row": {
+      "id": "E-new",
+      "vehicle": "V1",
+      "boot": "B2",
+      "at": "2026-10-02T00:30:00+08:00",
+      "kind": "boot",
+      "appointment": null,
+      "revision": 1
+    }
+  },
+  {
+    "step": 4,
+    "table": "events",
+    "op": "append",
+    "row": {
+      "id": "E1",
+      "vehicle": "V1",
+      "boot": "B1",
+      "at": "2026-10-01T23:40:00+08:00",
+      "kind": "run",
+      "appointment": null,
+      "revision": 1
+    }
+  }
+]
